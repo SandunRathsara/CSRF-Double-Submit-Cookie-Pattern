@@ -1,17 +1,19 @@
 body{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     margin: 0;
 }
 
 .outer_div{
+    position: fixed;
+    top: 20%;
     width: 60%;
-    height: 1000px;
+    height: 60%x;
+    bottom: 20%;
     border: none;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
     margin-left: 19%;
-    padding-left: 1%;
-    padding-top: 10px;
     border-radius: 5px;
+
 }
 
 .welcome{
@@ -26,6 +28,10 @@ body{
     padding: 10px;
     border: none;
     background-color: none;
+}
+
+h1, h2, .inner_div{
+    padding: 1%;
 }
 
 .input_text{
