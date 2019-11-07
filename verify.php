@@ -5,7 +5,7 @@
 
     $value = $_POST['token'];
 
-    if(isset($_POST['msg'])){
+    if(isset($_POST['token'])){
         if(token::check_token($value, $_COOKIE['csrfCookie'])){
             echo '
             <div class=outer_div>
@@ -22,7 +22,7 @@
             <div class=outer_div>
 
                 <h1 class=welcome align=center>Cookie Rejected!</h1>
-                <p class=congrats align=center>You Cheat!</p>
+                <p class=congrats align=center>You Cheater!</p>
 
             </div>
             
